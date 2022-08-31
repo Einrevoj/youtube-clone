@@ -22,6 +22,7 @@ const Navbar = () => (
     </Link>
 
     <SearchBar />
+    <button className="login">Login</button>
   </Stack>
 );
 

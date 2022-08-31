@@ -25,6 +25,19 @@ a {
   background-color: transparent;
 }
 
+.login{
+  background-color: #FC1503;
+  height: 50px;
+  width: 100px;
+  border-radius: 20px;
+  font-weight: bold !important;
+  text-transform: capitalize;
+  cursor:pointer;
+  font-size: 25px;
+  color: white;
+  
+}
+
 .category-btn:hover {
   background-color: #FC1503 !important;
   color: white !important;
