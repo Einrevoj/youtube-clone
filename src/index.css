@@ -38,6 +38,11 @@ a {
   
 }
 
+.login:hover{
+  background-color: white;
+  color: #FC1503;
+}
+
 .category-btn:hover {
   background-color: #FC1503 !important;
   color: white !important;
@@ -63,7 +68,7 @@ a {
   text-transform: capitalize;
   display: flex;
   align-items: center;
-  justify-content: start;
+  justify-content: flex-start;
   cursor:pointer;
   background: transparent;
   outline: none;
@@ -79,17 +84,35 @@ a {
   .category-btn{
     margin: 10px;
   }
+  h1{
+    display: none;
+  }
+  .login{
+    display: none;
+  }
 }
 
 @media screen and (max-width:800px){
   .copyright{
     display:none !important;
   }
+  h1{
+    display: none;
+  }
+  .login{
+    display: none;
+  }
 }
 
 @media screen and (max-width: 600px) {
   .scroll-horizontal {
     overflow: auto !important;
+  }
+  h1{
+    display: none;
+  }
+  .login{
+    display: none;
   }
 
   .react-player {
